@@ -7,7 +7,7 @@
 1. Adaptive thresholding 
 1. Binary erosion
 
-#### Right - how it supposed to look, left - how it looks using aforementioned techniques:
+#### Left - how it supposed to look, Right - how it looks using aforementioned techniques:
 ![](results_image_processing/14_h.JPG)
 ### How it works (machine learning):
 1. Leave only green channel  
@@ -21,7 +21,7 @@ created images and use it as
 class labels where 1 - vessel, 0 - background
 1. Find the best k parameter value for KNN classifier using k-fold cross-validation
 
-#### Right - how it supposed to look, left - how it looks using the aforementioned approach:
+#### Left - how it supposed to look, Right - how it looks using the aforementioned approach:
 ![](results_machine_learning/14_h.JPG)
 #### Tuning k value for KNN using k-fold cross-validation:
 ![](K_values.png)
